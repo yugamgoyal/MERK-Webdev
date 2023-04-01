@@ -1,0 +1,296 @@
+.Vector {
+  position: absolute;
+  left: 1.25%;
+  right: 97.5%;
+  top: 2.46%;
+  bottom: 95.69%;
+  width: 48px;
+  height: 48px; 
+}
+
+.Vector2 {
+position: absolute;
+width: 286px;
+height: 576px;
+left: 340px;
+top: 456px;
+
+/* white */
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+.Vector4 {
+  position: absolute;
+  width: 284px;
+  height: 400px;
+  left: 1612px;
+  top: 456px;
+
+/* white */
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.Vector5 {
+  position: absolute;
+  width: 922px;
+  height: 88px;
+  left: 658px;
+  top: 456px;
+
+/* white */
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.CreateNewTour{
+  position: absolute;
+  width: 260px;
+  height: 56px;
+  left: 24px;
+  top: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+/* primary */
+
+  background: #2E63F6;
+  border-radius: 8px;
+}
+
+.CreateNewTour_Text{
+  position: absolute;
+/* left: 3.96%;
+right: 89.58%;
+top: 9.23%;
+bottom: 88.92%; */
+
+  font-family: 'Gilroy-SemiBold';
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: 'cpsp' on, 'liga' off;
+
+  /* white */
+
+  color: #FFFFFF;
+}
+
+.Dashboard{
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 184px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  /* white */
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.DashBoard_Text{
+  position: absolute;
+  /* left: 3.98%;
+  right: 91.3%;
+  top: 15.38%;
+  bottom: 82.77%; */
+
+  font-family: 'Gilroy-SemiBold';
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: 'cpsp' on, 'liga' off;
+  display: flex;
+  flex-direction:row;
+  align-items: left;
+  justify-content: center;
+
+  /* sub */
+
+  color: #555B67;
+}
+
+.SearchProperty {
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 248px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+
+/* white */
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.Calander{
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  /* white */
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.MyClients{
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  /* white */
+  
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.MLSLists{
+position: absolute;
+width: 284px;
+height: 56px;
+left: 24px;
+top: 440px;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: center;
+/* white */
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+/* .Notifications{
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+} */
+
+/* .Notifications{
+  position: absolute;
+  width: 284px;
+  height: 56px;
+  left: 24px;
+  top: 504px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.Notifications > div {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.Icon {
+  width: 26.22px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.Icon img {
+  width: 100%;
+  height: auto;
+}
+
+.Text {
+  font-family: 'Gilroy-SemiBold';
+  font-size: 20px;
+  line-height: 24px;
+  color: #555B67;
+} */
+
+/* .Icon{
+  width: 26.22px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: center;
+} */
+
+.InviteandEarn{
+  position: absolute;
+  width: 260px;
+  height: 56px;
+  left: 24px;
+  top: 568px;
+
+  /* white */
+
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.Need_Help{
+  position: absolute;
+  left: 2.08%;
+  right: 92.92%;
+  top: 75.69%;
+  bottom: 22.46%;
+
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  font-feature-settings: 'cpsp' on, 'liga' off;
+
+  /* main */
+
+  color: #0F1C35;
+}
+
+.Help_Desk{
+  position: absolute;
+  left: 3.75%;
+  right: 92.34%;
+  top: 78.77%;
+  bottom: 19.38%;
+
+  font-family: 'Gilroy-SemiBold';
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: 'cpsp' on, 'liga' off;
+
+  /* main */
+
+  color: #0F1C35;
+}
