@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './Logo.css';
 
@@ -68,7 +67,7 @@ function App() {
           {/* Notification */}
           <div class="white-rectangle">
             <div class="Icon">
-                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/lv9izwrw3d-21%3A1684?alt=media&token=53d07f98-40d7-43bb-846b-f50c44234421" alt="Your Image"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/lv9izwrw3d-21%3A1684?alt=media&token=53d07f98-40d7-43bb-846b-f50c44234421" alt=""/>
             </div>
             <div class="Text">
                 Notifications
@@ -78,7 +77,7 @@ function App() {
           {/* Invite and Earn */}
           <div class="white-rectangle">
             <div class="Icon">
-                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/4376abwex98-21%3A1672?alt=media&token=6e7eb97e-4e46-48e5-bba7-415f918be807" alt="Your Image"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/4376abwex98-21%3A1672?alt=media&token=6e7eb97e-4e46-48e5-bba7-415f918be807" alt=""/>
             </div>
             <div class="Text">
                 Invite & Earn
@@ -97,7 +96,7 @@ function App() {
 
           <div class="clear-mini-rectangle">
             <div class="Icon_small">
-                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/bundxihscj-21%3A1714?alt=media&token=db45b61a-0429-414a-96f3-45a9cadc2578" alt="Your Image"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/bundxihscj-21%3A1714?alt=media&token=db45b61a-0429-414a-96f3-45a9cadc2578" alt=""/>
             </div>
             <div class="Text">
                 Help Desk
@@ -108,24 +107,174 @@ function App() {
 
           <div class="container-2">
             <div class="white-rectangle-2">
-              <div class="gray-box"></div>
-              <div class="gray-rectangle"></div>
-              <div class="gray-rectangle"></div>
-              <div class="gray-rectangle"></div>
-              <div class="gray-rectangle"></div>
-              <div class="gray-rectangle-2"></div>
+              <div class="gray-box">
+
+              <div class="gray-box_temp">
+                  <button class="centered-button_forsale">For Sale</button>
+                  <button class="centered-button_add_list">Add List</button>
+              </div>
+
+              <div class="mls_text">
+                  MLS#: E5579076
+              </div>
+
+              <div class="listed_for_text">
+                Listed for: <span class="list_title">$1,549,586</span>
+              </div>
+
+              <div class="addy_text">
+                  2118 Thornridge Cir. Syracuse, Connecticut 35624
+              </div>
+
+              
+
+              </div>
+              
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/u6777mfpth-21%3A1793?alt=media&token=ab8b84f6-786e-42b5-a857-7c527ed30b9d" alt=""/>
+                </div>
+                <div class="Text">
+                    View on Map
+                </div>
+
+              </div>
+
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/yz7ft3te1j-21%3A1798?alt=media&token=fe944336-e007-47d4-bb84-419b5a401cee" alt=""/>
+                </div>
+                <div class="Text">
+                    Get Directions
+                </div>
+
+              </div>
+
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/av1dwoz6yp9-21%3A1803?alt=media&token=6a7cfd12-7004-462a-ba69-310a8b81b8b0" alt=""/>
+                </div>
+                <div class="Text">
+                    Share
+                </div>
+
+              </div>
+
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/8tbmm0463nv-21%3A1826?alt=media&token=5cd2bdbc-1629-47e4-8161-8101c14e7efa" alt=""/>
+                </div>
+                <div class="Text">
+                    My Notes
+                </div>
+
+              </div>
+
+              <div class="gray-rectangle-2">
+               
+               <div class="ListingAgenttext">
+                    Listing Agent
+               </div>
+
+               <div class="Nametext">
+                  Courtney Henry
+               </div>
+
+               <div class="Numbertext">
+                  +90 552 489 8277
+               </div>
+
+               <div class="Numbertext">
+                  <img
+                      src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/vansohw5gt-21%3A1814?alt=media&token=46f9b2e4-9606-4cff-9ef0-2c2428a2ee52"
+                      alt="Not Found"
+                      className="turkey-tr"
+                  />
+                  <img
+                      src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/w6f19bcf47q-21%3A1806?alt=media&token=4339add7-5165-4868-86d8-453875ef76e8"
+                      alt="Not Found"
+                      className="vuesax-linear-sms"
+                  />
+               </div>
+
+              </div>
             </div>
           </div>
 
           {/* Short Cuts */}
           <div class="container-3">
             <div class="white-rectangle-3">
-              <div class="gray-rectangle-3"></div>
-              <div class="gray-rectangle-3"></div>
-              <div class="gray-rectangle-3"></div>
-              <div class="gray-rectangle-3"></div>
-              <div class="gray-rectangle-3"></div>
-              <div class="gray-rectangle-3"></div>
+
+              {/* Short Cut White Area */}
+              <div class="gray-white-rectangle-3">
+                <div class="Text_forshortcut">
+                    Shortcuts
+                </div>
+                <div class="Icon_shortcuts">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/jjdpm23u4w-21%3A1749?alt=media&token=cd1aea5c-75d6-46d1-994b-4987e7802f69" alt=""/>
+                </div>
+              </div>
+              
+
+
+
+              {/* Notify Similar Property */}
+              <div class="gray-notif-rectangle-3">
+
+                  <div class="Text_notif">
+                      Notify similar properties
+                  </div>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider"></span>
+                 </label>
+              </div>
+
+              <div class="blue-rectangle_key_fact">
+                  {/* blue-rectangle_key_fact  */}
+
+                <div class="Icon_shortcuts_blue">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/kwerf5xv2we-21%3A1756?alt=media&token=1670f417-c3fd-4f44-835f-8a8982c6ec95" alt=""/>
+                </div>
+                <div class="blue-rectangle_key_fact-Text">
+                    Key Facts
+                </div>
+
+              </div>
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/9ocahp94278-21%3A1761?alt=media&token=778cf1c3-b7bc-40a0-b02a-06425bc4a226" alt=""/>
+                </div>
+                <div class="Text">
+                    Property History
+                </div>
+
+              </div>
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/95zeer985zf-21%3A1766?alt=media&token=028d5f78-009f-4651-b3f4-2558911e2391" alt=""/>
+                </div>
+                <div class="Text">
+                    Demographics
+                </div>
+
+              </div>
+              <div class="gray-white-rectangle-4">
+
+                <div class="Icon">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/tbxelnq8cwi-21%3A1771?alt=media&token=0f7b359d-ede5-4b76-b339-1a5f5a093d55" alt=""/>
+                </div>
+                <div class="Text">
+                    Point of interest
+                </div>
+
+              </div>
             </div>
           </div>
 
@@ -133,6 +282,67 @@ function App() {
         {/* Property Details */}
         <div class="container-5">
           <div class="white-rectangle-5">
+              <div className="group-7357">
+                <div className="group-757">
+                    <p className="prop_details_text">Property Details</p>
+
+                    <div className="group-7351">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1841?alt=media&token=729e7471-2474-4c83-b68d-19be735747bf"
+                        alt="Not Found"
+                        className="vuesax-linear-building-4"
+                      />
+                      <p className="apartment">Apartment</p>
+                    </div>
+
+                    <div className="group-7352">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1844?alt=media&token=a9f1a16d-5d02-465c-8f3c-6b10be3ad8ce"
+                        alt="Not Found"
+                        className="la-bed"
+                      />
+                      <p className="_-3-bedrooms">3 Bedrooms</p>
+                    </div>
+
+                    <div className="group-7353">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1848?alt=media&token=7e53983b-ef53-4c96-9ce3-c10c481ac9e3"
+                        alt="Not Found"
+                        className="ph-bathtub"
+                      />
+                      <p className="_-2-bathrooms">2 Bathrooms</p>
+                    </div>
+
+
+                    <div className="group-7354">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1852?alt=media&token=03678956-803c-4d9c-bd44-399a645d61ed"
+                        alt="Not Found"
+                        className="vuesax-linear-car"
+                      />
+                      <p className="_-2-garage">2 Garage</p>
+                    </div>
+
+                    <div className="group-7355">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1855?alt=media&token=f4d62e7f-607c-400f-b929-52a2f0183135"
+                        alt="Not Found"
+                        className="vuesax-linear-home-2"
+                      />
+                      <p className="_-1963-sq-ft">1,963 sq. ft.</p>
+                    </div>
+
+
+                    <div className="group-7356">
+                      <img
+                        src="https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/f9kuxf26ku5-21%3A1858?alt=media&token=c2828c81-48e1-47ec-ba28-7e83836c0f69"
+                        alt="Not Found"
+                        className="vuesax-linear-format-square"
+                      />
+                      <p className="_-1176-sq-ft">1,176 sq. ft.</p>
+                    </div>
+              </div>
+            </div>
           </div>
         </div>
 
