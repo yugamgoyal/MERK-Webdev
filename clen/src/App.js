@@ -346,6 +346,72 @@ function App() {
           </div>
         </div>
 
+        {/* Center Text Area */}
+
+        {/* <div class="box"> </div> */}
+
+        <div class="box">
+
+            <div class="header">
+              <div class="button active" id="button1" >Key Facts</div>
+              <div class="button" id="button2" >Details</div>
+              <div class="button" id="button3" >Rooms</div>
+            </div>
+
+
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo risus a mattis semper. Integer placerat volutpat odio, at pulvinar tortor laoreet mattis. Proin aliquet semper tempus.
+            </div>
+
+
+            <div class="text-info-36">
+              <div class="left-text">Tax</div>
+              <div class="right-text">$1,340 / 2022</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Type</div>
+              <div class="right-text">Single-Family</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Building Age</div>
+              <div class="right-text">5 Year</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Size</div>
+              <div class="right-text">1500 - 2000 feet2</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Parking</div>
+              <div class="right-text">Detached 2 Garage, 6 Parking</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Basement</div>
+              <div class="right-text">Unfinished</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">MLS#</div>
+              <div class="right-text">E5579076</div>
+            </div>
+            <div class="text-info-36">
+              <div class="left-text">Possesion</div>
+              <div class="right-text">5 Day</div>
+            </div>
+
+            <div class="footer-header">
+                Description
+            </div>
+
+            <div class="footer">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nunc commodo risus a mattis semper. Integer placerat volutpat odio,
+              at pulvinar tortor laoreet mattis. Proin aliquet semper tempus.
+              Etiam auctor lacus leo read more..
+            </div>  
+
+        </div>
+
+
+
         {/* Images */}
         <div class="container-4">
           <div class="flex-box-1">
@@ -437,5 +503,14 @@ function App() {
     </div>
   );
 }
+
+const buttons = document.querySelectorAll('.button');
+buttons.forEach(button => {
+
+  button.addEventListener('click', () => {
+    buttons.forEach(b => b.classList.remove('active'));
+    button.classList.add('active');
+  });
+});
 
 export default App;
